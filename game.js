@@ -12,7 +12,9 @@ let hp = 100;
 let coinCount = 0;
 
 export function initGame(){
-
+startGame();
+ }
+ 
  scene = new THREE.Scene();
 
  camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
